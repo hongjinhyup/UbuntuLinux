@@ -43,13 +43,19 @@
   - B class :   172.16.xxx.xxx ~ 172.31.xxx.xxx    ()
   - C class :   192.168.0.xxx ~ 192.168.255.xxx
 
-- NAT 방식의 동작 원리...
-  - public IP? 공유기는 public으로  받아야함
-  - 외부에서 내 컴퓨터에 접속하려면 
+- NAT (Network Address Translation) 방식의 동작 원리...
+  - 공유기는 ISP로부터 public ip를 모뎀을 통해 WIFI기기에 공급하고 그 ip를 라우터를 통해 private으로 변경된 ip를 스마트폰에 ip를 할당해준다. 
+  - 외부에서 내 컴퓨터에 접속하려면...
   - 구글 접속 -> googe.com (DNS를 통해서 접속됨) -> 나갈때 공유기 자체에서 테이블을 갖고있다가 없애버리나..? (유동 IP?)
+
+
+
+
 
 - 외부 사이트에서 나의 ip는 어떻게 보일까?
   - whatismyipaddress.com에서 확인해보면 나의 IP는 221.148.195.177이다. 나의 실제 ip 주소와 다르다...
+
+
 
 
 ## Linux 명령어 리스트
