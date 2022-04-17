@@ -39,10 +39,12 @@
 - NAT를 왜 사용하는가?
   - IP 주소 절약
     - NAT기술을 사용하면 하나의 공인 ip주소를 여러 대의 호스트가 인터넷에 접속가능하게 해줌으로써 Public IP를 절약할 수 있다.
+    
   - 보안
     - NAT동작의 특성을 먼저 봐야한다. NAT는 ip를 숨길 수 있는 기능이 있다. 예를 들어, 라우터(공유기 등) 외부로 트래픽이 나갈 때 사설 IP가 공인 IP로 바뀌므로 공격자가 라우터 안쪽에 있는 사설 IP를 모르기 때문에 최종 목적지로의 공격이 어려워져 내부 네트워크 및 호스트들을 보호 할 수 있다.
 
   - NAT (Network Address Translation) 방식의 동작 원리...
+      - https://www.stevenjlee.net/2020/07/11/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-nat-network-address-translation-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A3%BC%EC%86%8C-%EB%B3%80%ED%99%98/
     - 공유기는 ISP로부터 public ip를 모뎀을 통해 WIFI기기에 공급하고 그 ip를 라우터를 통해 private으로 변경된 ip를 스마트폰에 ip를 할당해준다. 
     - 외부에서 내 컴퓨터에 접속하려면...
     - 구글 접속 -> googe.com (DNS를 통해서 접속됨) -> 나갈때 공유기 자체에서 테이블을 갖고있다가 없애버리나..? (유동 IP?)
